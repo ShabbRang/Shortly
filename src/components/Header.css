@@ -1,0 +1,43 @@
+.info ul{
+    list-style: none;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.auth ul{
+    list-style: none;
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    margin: 0 5%;
+    font-size: large;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+}
+
+.title{
+    grid-column: 2/3;
+}
+
+.info{
+    grid-column: 3/4;
+    align-items: center;
+    place-self: center;
+}
+
+.auth{
+    grid-column: 4/5;
+    align-items: center;
+    place-self: center;
+}
+
+body{
+    background-color: rgb(242, 247, 253);
+}
