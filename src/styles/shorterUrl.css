@@ -14,7 +14,7 @@
     
 }
 
-.long_url input{
+.longUrl input{
     width: 40vw;
     height: 4vh;
     border-radius: 1vh;
@@ -22,13 +22,13 @@
     margin: 0 3vw;
 }
 
-.long_url button{
+.longUrl button{
     width: 7vw;
     height: 6vh;
     border-radius: 1vw;
 }
 
-.short_url input{
+.shortUrl input{
     width: 40vw;
     height: 4vh;
     border-radius: 1vh;
@@ -37,25 +37,29 @@
     /* margin: 0 3vw; */
 }
 
-.short_url button{
+.shortUrl button{
     width: 7vw;
     height: 6vh;
     border-radius: 1vw;
 }
 
-.long_url{
+.longUrl input{
+    background-color: white;
+    
+}
+
+.longUrl{
     width: 55vw;
     height: 10vh;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: white;
     border-radius: 0.5vw;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
     margin: 4vh 0;
 }
 
-.short_url{
+.shortUrl{
     width: 55vw;
     height: 10vh;
     align-items: center;
@@ -64,4 +68,10 @@
     background-color: white;
     border-radius: 0.5vw;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.designCircle{
+    background-color: brown;
+    border-radius: 50%;
+    height: 5vh;
 }

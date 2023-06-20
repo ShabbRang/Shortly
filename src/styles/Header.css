@@ -19,21 +19,21 @@ li{
 
 .head{
     display: grid;
-    grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+    grid-template-columns:  1fr 2fr 1fr ;
 }
 
 .title{
-    grid-column: 2/3;
+    grid-column: 1/2;
 }
 
 .info{
-    grid-column: 3/4;
+    grid-column: 2/3;
     align-items: center;
     place-self: center;
 }
 
 .auth{
-    grid-column: 4/5;
+    grid-column: 3/4;
     align-items: center;
     place-self: center;
 }

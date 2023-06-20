@@ -1,6 +1,6 @@
 // shortenApi.js
 
-export const shortUrl = async (originalURL) => {
+export const short_Url = async (originalURL) => {
     try {
       const response = await fetch(`https://api.shrtco.de/v2/shorten?url=${originalURL}`);
       const data = await response.json();

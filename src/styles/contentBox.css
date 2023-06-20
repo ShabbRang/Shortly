@@ -1,0 +1,43 @@
+.catchPhrase{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding: 5vh 5vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: x-large;
+}
+
+.catchPhrase h1{
+    margin-bottom: 10vh;
+}
+
+.picture{
+    background-color: black;
+    background-image: url('../../public/image4.jpg');
+    width: 25vw;
+    height: 35vh;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* margin-top: 1vh; */
+    /* grid-row: 1/2;
+    grid-column: 3/4; */
+    justify-self: end;
+    margin-top: 5vh;
+  }
+  
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: ; */
+}
+
+.urlShortner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

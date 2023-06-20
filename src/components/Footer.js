@@ -1,13 +1,13 @@
 import React from 'react';
-import './Footer.css';
+import '../styles/Footer.css';
 
-export default function Footer() {
+export const Footer = () => {
     return (
-        <div>
+        <div className='footer'>
                 <h2 className='title'>Shortly</h2>
         
             <div className="lists">
-                <div className="col">
+                <div className="column">
                 <h3>Features</h3>
                     <ul className='features'>
                     <li>Link Shortning</li>
@@ -16,7 +16,7 @@ export default function Footer() {
                 </ul>
                 </div>
 
-                <div className="col">
+                <div className="column">
                     <h3>Resources</h3>
                 <ul className='resources'>
                     <li>Blog</li>
@@ -25,7 +25,7 @@ export default function Footer() {
                 </ul>
                 </div>
 
-                <div className="col">
+                <div className="column">
                     <h3>Company</h3>
                     <ul>
                         <li>About</li>

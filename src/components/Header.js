@@ -1,7 +1,7 @@
 import React from 'react';
-import './Header.css'
+import '../styles/Header.css'
 
-export default function Header() {
+export const Header = () => {
     return (
         <div className='bg-blue'>
             <div className="head">
